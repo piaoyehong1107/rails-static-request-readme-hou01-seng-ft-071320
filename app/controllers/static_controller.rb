@@ -1,5 +1,5 @@
 class StaticController < ApplicationController
   def about
-    "static/some_page"
+    render "static/some_page"
   end
 end
